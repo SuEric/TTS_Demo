@@ -21,6 +21,8 @@ namespace TTS_Demo
             synth.SetOutputToDefaultAudioDevice();
             synth.Volume = 100;
             synth.SelectVoice(synth.GetInstalledVoices().FirstOrDefault().VoiceInfo.Name);
+
+            Console.WriteLine("HELLO WORLD FROM TEAMCITY");
         }
 
         private static readonly Lazy<TTSManager> lazy = new Lazy<TTSManager>(() => new TTSManager());
