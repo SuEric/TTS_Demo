@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>TTS_Demo</id>
+    <title>TTS Demo</title>
+    <version>1.0.0</version>
+    <authors>Eric Garcia</authors>
+    <owners>Clare Gaviola</owners>
+    <licenseUrl>http://nearshoretechnology.com</licenseUrl>
+    <projectUrl>http://nearshoretechnology.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Demo project with basic Microsoft Speech Platform Text to Speech Feature. This nuget package is for doing automated deployment with continuos integration by using Octopus with TeamCity</description>
+    <releaseNotes>This is the initial release to test everything works!</releaseNotes>
+  </metadata>
+</package>
